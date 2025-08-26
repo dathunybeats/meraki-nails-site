@@ -116,9 +116,9 @@ export default function Home() {
                </h1>
                <div className="w-24 h-1 bg-pink-400 mx-auto md:mx-0 mb-8"></div>
               <p className="text-base md:text-lg font-script italic text-gray-600 max-w-xl mx-auto md:mx-0 leading-relaxed mb-8">
-                <span className="line">Hi, I'm Sarah, a passionate nail artist dedicated to creating beautiful, flawless nails.</span>{" "}
+                <span className="line">Hi, I&#39;m Sarah, a passionate nail artist dedicated to creating beautiful, flawless nails.</span>{" "}
                 <span className="line">With meticulous attention to detail and a love for elegant designs,</span>{" "}
-                <span className="line">I'm here to give you the perfect manicure that reflects your unique style.</span>
+                <span className="line">I&#39;m here to give you the perfect manicure that reflects your unique style.</span>
               </p>
               
               <div className="flex items-center justify-center md:justify-start gap-4 mb-8">
@@ -356,7 +356,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Amazing nail art! Sarah is so talented and professional. My nails lasted for weeks!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Amazing nail art! Sarah is so talented and professional. My nails lasted for weeks!&rdquo;</p>
             </div>
 
             {/* Review 2 */}
@@ -372,7 +372,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Best nail experience I've ever had! The attention to detail is incredible. Highly recommend!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Best nail experience I&#39;ve ever had! The attention to detail is incredible. Highly recommend!&rdquo;</p>
             </div>
 
             {/* Review 3 */}
@@ -388,7 +388,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Clean salon, friendly service, and beautiful results every time. Sarah is the best!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Clean salon, friendly service, and beautiful results every time. Sarah is the best!&rdquo;</p>
             </div>
 
             {/* Review 4 */}
@@ -404,7 +404,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Absolutely love my nails! The quality and artistry is outstanding. Will definitely be back!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Absolutely love my nails! The quality and artistry is outstanding. Will definitely be back!&rdquo;</p>
             </div>
 
             {/* Review 5 */}
@@ -420,7 +420,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Perfect manicure every time! Sarah really knows her craft and creates beautiful designs."</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Perfect manicure every time! Sarah really knows her craft and creates beautiful designs.&rdquo;</p>
             </div>
 
             {/* Review 6 */}
@@ -436,7 +436,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Such a relaxing experience! The salon is beautiful and Sarah is incredibly skilled."</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Such a relaxing experience! The salon is beautiful and Sarah is incredibly skilled.&rdquo;</p>
             </div>
 
             {/* Duplicate set for seamless loop */}
@@ -452,7 +452,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Amazing nail art! Sarah is so talented and professional. My nails lasted for weeks!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Amazing nail art! Sarah is so talented and professional. My nails lasted for weeks!&rdquo;</p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg border border-pink-200 w-[calc(100vw-3rem)] md:w-[300px] flex-shrink-0">
@@ -467,7 +467,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Best nail experience I've ever had! The attention to detail is incredible. Highly recommend!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Best nail experience I&#39;ve ever had! The attention to detail is incredible. Highly recommend!&rdquo;</p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-lg border border-pink-200 w-[calc(100vw-3rem)] md:w-[300px] flex-shrink-0">
@@ -482,7 +482,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">"Clean salon, friendly service, and beautiful results every time. Sarah is the best!"</p>
+              <p className="text-gray-600 font-jakarta text-xs md:text-sm leading-snug whitespace-normal break-words">&ldquo;Clean salon, friendly service, and beautiful results every time. Sarah is the best!&rdquo;</p>
             </div>
             </div>
           </div>
