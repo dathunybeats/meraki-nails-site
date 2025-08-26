@@ -161,28 +161,43 @@ export default function Home() {
       {/* Hours and Contact Section */}
       <section className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-12 items-stretch">
             {/* Hours */}
-            <Reveal><div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-pink-200">
+            <Reveal><div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-pink-200 h-full">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Hours</h2>
               <div className="space-y-4">
-                <div>
-                  <h3 className="font-bold text-gray-800 underline line">MONDAY-FRIDAY</h3>
-                  <p className="text-gray-600 line">10:00 AM - 5:00 PM</p>
+                <div className="flex items-center justify-between bg-pink-50/60 border border-pink-200 rounded-lg px-4 py-3">
+                  <h3 className="font-bold text-gray-800 line">MONDAY–FRIDAY</h3>
+                  <p className="text-gray-700 font-jakarta line">10:00 AM – 5:00 PM</p>
                 </div>
-                <div>
-                  <h3 className="font-bold text-gray-800 underline line">SATURDAY</h3>
-                  <p className="text-gray-600 line">11:00 AM-6:00 PM</p>
+                <div className="flex items-center justify-between bg-pink-50/60 border border-pink-200 rounded-lg px-4 py-3">
+                  <h3 className="font-bold text-gray-800 line">SATURDAY</h3>
+                  <p className="text-gray-700 font-jakarta line">11:00 AM – 6:00 PM</p>
                 </div>
-                <div>
-                  <h3 className="font-bold text-gray-800 underline line">SUNDAY</h3>
-                  <p className="text-gray-600 line">CLOSE / APPOINTMENT</p>
+                <div className="flex items-center justify-between bg-pink-50/60 border border-pink-200 rounded-lg px-4 py-3">
+                  <h3 className="font-bold text-gray-800 line">SUNDAY</h3>
+                  <p className="text-gray-700 font-jakarta line">Closed / By Appointment</p>
+                </div>
+              </div>
+
+              <div className="mt-6 pt-4 border-t border-pink-200 space-y-3 text-sm text-gray-600 font-jakarta">
+                <div className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mt-2"></span>
+                  <p className="line">Last appointment begins 60 minutes before closing.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mt-2"></span>
+                  <p className="line">Please arrive 5–10 minutes early for check‑in and prep.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-pink-400 rounded-full mt-2"></span>
+                  <p className="line">Holiday hours may vary; same‑day bookings depend on availability.</p>
                 </div>
               </div>
             </div></Reveal>
 
             {/* Contact */}
-            <Reveal><div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-pink-200">
+            <Reveal><div className="bg-white rounded-2xl p-8 shadow-lg border-2 border-pink-200 h-full">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Contact</h2>
               <div className="space-y-4">
                                  <div className="flex items-center gap-3">
@@ -227,22 +242,22 @@ export default function Home() {
          <div className="max-w-6xl mx-auto">
                       <h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-4"> Top Rated Nail Artist </h2>
            <h3 className="text-3xl md:text-4xl font-black text-center text-pink-600 mb-12 italic">Specializing In</h3>
-           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+           <div className="grid md:grid-cols-3 gap-8 mb-16 items-stretch">
+            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full">
                <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
                  <span className="text-2xl">💅</span>
                </div>
                <h3 className="font-bold text-gray-800 mb-2">Gel-X</h3>
                <p className="text-sm text-gray-600 font-jakarta">Professional gel extensions for long-lasting, beautiful nails</p>
             </div></Reveal>
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full">
                <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
                  <span className="text-2xl">✨</span>
                </div>
                <h3 className="font-bold text-gray-800 mb-2">Natural Nail Enhancement</h3>
                <p className="text-sm text-gray-600 font-jakarta">Strengthening and beautifying your natural nails</p>
             </div></Reveal>
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full">
                <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
                  <span className="text-2xl">🎨</span>
                </div>
