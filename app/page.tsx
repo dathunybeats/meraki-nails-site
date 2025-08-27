@@ -265,52 +265,52 @@ export default function Home() {
        <section className="py-5 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
          <div className="max-w-6xl mx-auto">
            <h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-12">Booking Policies</h2>
-          <div className="grid md:grid-cols-5 gap-6">
+          <div className="grid md:grid-cols-5 gap-6 items-stretch">
             {/* Food */}
-            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
                 <span className="text-xl">🍽️</span>
               </div>
               <h3 className="font-bold text-gray-800 mb-2 text-sm">FOOD</h3>
-              <p className="text-xs text-gray-600">If you are hungry during your appointment, inform us & we will order food. All costs must be paid in cash upon ordering.</p>
+              <p className="text-xs text-gray-600 flex-grow">If you are hungry during your appointment, inform us & we will order food. All costs must be paid in cash upon ordering.</p>
             </div></Reveal>
 
             {/* No-Shows */}
-            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
                 <span className="text-xl">🚫</span>
               </div>
               <h3 className="font-bold text-gray-800 mb-2 text-sm">NO-SHOWS</h3>
-              <p className="text-xs text-gray-600">Kindly inform us <span className="text-red-600 font-bold">24hours</span> ahead of time if you need to cancel/reschedule, 2+ times deposit required, which goes towards total.</p>
+              <p className="text-xs text-gray-600 flex-grow">Kindly inform us <span className="text-red-600 font-bold">24hours</span> ahead of time if you need to cancel/reschedule, 2+ times deposit required, which goes towards total.</p>
             </div></Reveal>
 
             {/* Late */}
-            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
                 <svg className="w-6 h-6 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
               </div>
               <h3 className="font-bold text-gray-800 mb-2 text-sm">LATE</h3>
-              <p className="text-xs text-gray-600">Please inform us ahead of time if you are running late - how late. Rescheduling may be necessary depending on booking. <span className="text-red-600 font-bold">30min, no communication = no show</span></p>
+              <p className="text-xs text-gray-600 flex-grow">Please inform us ahead of time if you are running late - how late. Rescheduling may be necessary depending on booking. <span className="text-red-600 font-bold">30min, no communication = no show</span></p>
             </div></Reveal>
 
             {/* Refunds */}
-            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
                 <span className="text-xl">💰</span>
               </div>
               <h3 className="font-bold text-gray-800 mb-2 text-sm">REFUNDS</h3>
-              <p className="text-xs text-gray-600">We don&#39;t offer refunds but we do offer a free removal within 1 week if you don&#39;t like your nails.</p>
+              <p className="text-xs text-gray-600 flex-grow">We don&#39;t offer refunds but we do offer a free removal within 1 week if you don&#39;t like your nails.</p>
             </div></Reveal>
 
             {/* Smoking */}
-            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300 h-full flex flex-col">
               <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
                 <span className="text-xl">🚭</span>
               </div>
               <h3 className="font-bold text-gray-800 mb-2 text-sm">SMOKING</h3>
-              <p className="text-xs text-gray-600">No smoking, vaping, doing any drug on our property. Please do it before or after.</p>
+              <p className="text-xs text-gray-600 flex-grow">No smoking, vaping, doing any drug on our property. Please do it before or after.</p>
             </div></Reveal>
           </div>
         </div>
