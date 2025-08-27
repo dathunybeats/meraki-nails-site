@@ -42,8 +42,8 @@ export default function Home() {
                <svg className="w-3 h-3 md:w-4 md:h-4 text-pink-500" fill="currentColor" viewBox="0 0 20 20">
                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                </svg>
-               <span className="hidden sm:inline">+1(212) 555-0198</span>
-               <span className="sm:hidden">+1(212) 555-0198</span>
+                             <span className="hidden sm:inline">(236) 591-9999</span>
+              <span className="sm:hidden">(236) 591-9999</span>
              </div>
              <div className="flex items-center gap-1 md:gap-2 text-gray-700">
                <svg className="w-3 h-3 md:w-4 md:h-4 text-pink-500" fill="currentColor" viewBox="0 0 20 20">
@@ -265,49 +265,52 @@ export default function Home() {
        <section className="py-5 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
          <div className="max-w-6xl mx-auto">
            <h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-12">Booking Policies</h2>
-          <div className="grid md:grid-cols-4 gap-8">
-            {/* Deposit */}
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
-                <svg className="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" />
-                </svg>
+          <div className="grid md:grid-cols-5 gap-6">
+            {/* Food */}
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
+                <span className="text-xl">🍽️</span>
               </div>
-              <h3 className="font-bold text-gray-800 mb-2">DEPOSIT</h3>
-              <p className="text-sm text-gray-600">A $20 deposit is required to secure your appointment. This amount will be applied to your total service cost.</p>
+              <h3 className="font-bold text-gray-800 mb-2 text-sm">FOOD</h3>
+              <p className="text-xs text-gray-600">If you are hungry during your appointment, inform us & we will order food. All costs must be paid in cash upon ordering.</p>
             </div></Reveal>
 
-            {/* Rescheduling */}
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
-                <svg className="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                </svg>
+            {/* No-Shows */}
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
+                <span className="text-xl">🚫</span>
               </div>
-              <h3 className="font-bold text-gray-800 mb-2">RESCHEDULING</h3>
-              <p className="text-sm text-gray-600">Reschedule at least 24 hours in advance to avoid losing your deposit. Same-day changes may result in deposit forfeiture.</p>
+              <h3 className="font-bold text-gray-800 mb-2 text-sm">NO-SHOWS</h3>
+              <p className="text-xs text-gray-600">Kindly inform us <span className="text-red-600 font-bold">24hours</span> ahead of time if you need to cancel/reschedule, 2+ times deposit required, which goes towards total.</p>
             </div></Reveal>
 
-            {/* Cancellation */}
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
-                <svg className="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <h3 className="font-bold text-gray-800 mb-2">CANCELLATION</h3>
-              <p className="text-sm text-gray-600">Cancellations made less than 24 hours before your appointment will result in full deposit forfeiture.</p>
-            </div></Reveal>
-
-            {/* Late Arrival */}
-            <Reveal><div className="text-center p-6 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
-              <div className="w-16 h-16 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
-                <svg className="w-8 h-8 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
+            {/* Late */}
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
+                <svg className="w-6 h-6 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="font-bold text-gray-800 mb-2">LATE ARRIVAL</h3>
-              <p className="text-sm text-gray-600">Arriving more than 15 minutes late may result in appointment cancellation and deposit loss.</p>
+              <h3 className="font-bold text-gray-800 mb-2 text-sm">LATE</h3>
+              <p className="text-xs text-gray-600">Please inform us ahead of time if you are running late - how late. Rescheduling may be necessary depending on booking. <span className="text-red-600 font-bold">30min, no communication = no show</span></p>
+            </div></Reveal>
+
+            {/* Refunds */}
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
+                <span className="text-xl">💰</span>
+              </div>
+              <h3 className="font-bold text-gray-800 mb-2 text-sm">REFUNDS</h3>
+              <p className="text-xs text-gray-600">We don&#39;t offer refunds but we do offer a free removal within 1 week if you don&#39;t like your nails.</p>
+            </div></Reveal>
+
+            {/* Smoking */}
+            <Reveal><div className="text-center p-4 bg-pink-50 rounded-xl border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
+              <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-3 animate-float">
+                <span className="text-xl">🚭</span>
+              </div>
+              <h3 className="font-bold text-gray-800 mb-2 text-sm">SMOKING</h3>
+              <p className="text-xs text-gray-600">No smoking, vaping, doing any drug on our property. Please do it before or after.</p>
             </div></Reveal>
           </div>
         </div>
