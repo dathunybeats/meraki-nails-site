@@ -589,7 +589,8 @@ export default function Home() {
                 muted
                 loop
                 playsInline
-                className="w-full h-full object-cover object-top rounded-xl"
+                className="w-full h-full object-cover rounded-xl"
+                style={{objectPosition: 'center 20%'}}
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-300/20 to-pink-400/20"></div>
               <div className="absolute bottom-3 left-3 right-3 text-center">
