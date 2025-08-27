@@ -551,48 +551,50 @@ export default function Home() {
               </div>
             </div></Reveal>
 
-            {/* Pink & Blue Bows */}
-            <Reveal><div className="aspect-square bg-gradient-to-br from-blue-200 to-pink-300 rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
+            {/* Colorful Gradient Nails */}
+            <Reveal><div className="aspect-square bg-gradient-to-br from-pink-200 to-purple-300 rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
           <Image
-                src="/SnapInsta.to_498239139_17889855213257578_4920639422939679441_n.jpg"
-                alt="Pink & Blue Bow Nail Art"
+                src="/539250773_786672240540069_2075678512138974099_n.jpg"
+                alt="Colorful Gradient Nail Art"
                 fill
                 className="object-cover rounded-xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-300/20 to-pink-400/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-purple-400/20"></div>
               <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Pink & Blue</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Decorative bows</p>
+                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Rainbow Gradient</h4>
+                <p className="text-white/80 text-xs drop-shadow-lg">Colorful ombre</p>
               </div>
             </div></Reveal>
 
-            {/* Milky White */}
-            <Reveal><div className="aspect-square bg-gradient-to-br from-gray-200 to-pink-200 rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
+            {/* Pink Floral Design */}
+            <Reveal><div className="aspect-square bg-gradient-to-br from-pink-200 to-white rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
           <Image
-                src="/SnapInsta.to_520235498_17897536680257578_3627261489491205274_n.jpg"
-                alt="Milky White Nail Art"
+                src="/540698244_1268948121111398_3496158816040526985_n.jpg"
+                alt="Pink Floral Nail Art"
                 fill
                 className="object-cover rounded-xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-gray-300/20 to-pink-300/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-white/20"></div>
               <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Milky White</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Elegant & clean</p>
+                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Pink Florals</h4>
+                <p className="text-white/80 text-xs drop-shadow-lg">Delicate flowers</p>
               </div>
             </div></Reveal>
 
-            {/* Luxury 3D */}
-            <Reveal><div className="aspect-square bg-gradient-to-br from-amber-200 to-rose-300 rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
-          <Image
-                src="/SnapInsta.to_539431182_17902717632257578_8018595042623517885_n.jpg"
-                alt="Luxury 3D Nail Art"
-                fill
-                className="object-cover rounded-xl"
+            {/* Nail Art Video */}
+            <Reveal><div className="aspect-square bg-gradient-to-br from-purple-200 to-pink-300 rounded-xl hover:scale-105 transition-transform duration-300 cursor-pointer relative overflow-hidden group">
+              <video
+                src="/540979222_24267509086266615_823592020127093523_n.mp4"
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="w-full h-full object-cover rounded-xl"
               />
-              <div className="absolute inset-0 bg-gradient-to-br from-amber-300/20 to-rose-400/20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-purple-300/20 to-pink-400/20"></div>
               <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Luxury 3D</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Sculptural art</p>
+                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Nail Process</h4>
+                <p className="text-white/80 text-xs drop-shadow-lg">Behind the scenes</p>
               </div>
             </div></Reveal>
           </div>
