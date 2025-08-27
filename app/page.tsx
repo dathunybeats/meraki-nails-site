@@ -515,10 +515,7 @@ export default function Home() {
                 className="object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-rose-400/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Coral Pink</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Short square nails</p>
-              </div>
+
             </div></Reveal>
 
             {/* Cat Charm Nails */}
@@ -530,10 +527,7 @@ export default function Home() {
                 className="object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-300/20 to-pink-400/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Cat Charm</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">3D cat with bow</p>
-              </div>
+
             </div></Reveal>
 
             {/* 3D Swirl Nails */}
@@ -545,10 +539,7 @@ export default function Home() {
                 className="object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-rose-300/20 to-pink-400/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">3D Swirls</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Pearlescent design</p>
-              </div>
+
             </div></Reveal>
 
             {/* Colorful Gradient Nails */}
@@ -560,10 +551,7 @@ export default function Home() {
                 className="object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-purple-400/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Rainbow Gradient</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Colorful ombre</p>
-              </div>
+
             </div></Reveal>
 
             {/* Pink Floral Design */}
@@ -575,10 +563,7 @@ export default function Home() {
                 className="object-cover rounded-xl"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-white/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Pink Florals</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Delicate flowers</p>
-              </div>
+
             </div></Reveal>
 
             {/* Nail Art Video */}
@@ -593,10 +578,7 @@ export default function Home() {
                 style={{objectPosition: 'center 20%'}}
               />
               <div className="absolute inset-0 bg-gradient-to-br from-purple-300/20 to-pink-400/20"></div>
-              <div className="absolute bottom-3 left-3 right-3 text-center">
-                <h4 className="text-white font-semibold text-sm mb-1 drop-shadow-lg">Nail Process</h4>
-                <p className="text-white/80 text-xs drop-shadow-lg">Behind the scenes</p>
-              </div>
+
             </div></Reveal>
           </div>
                      <div className="text-center mt-8">
