@@ -108,20 +108,20 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative py-20 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
         <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Left Side - Text Content */}
-            <Reveal><div className="text-center md:text-left reveal-blur">
+          <div className="flex justify-center">
+            {/* Text Content */}
+            <Reveal><div className="text-center reveal-blur max-w-4xl">
                              <h1 className="text-5xl md:text-7xl font-black text-gray-800 mb-4">
                  Nails By <span className="italic text-pink-600 font-black">Sarah Q</span>
                </h1>
-               <div className="w-24 h-1 bg-pink-400 mx-auto md:mx-0 mb-8"></div>
-              <p className="text-base md:text-lg font-script italic text-gray-600 max-w-xl mx-auto md:mx-0 leading-relaxed mb-8">
+               <div className="w-24 h-1 bg-pink-400 mx-auto mb-8"></div>
+              <p className="text-base md:text-lg font-script italic text-gray-600 max-w-xl mx-auto leading-relaxed mb-8">
                 <span className="line">Hi, I&#39;m Sarah, a passionate nail artist dedicated to creating beautiful, flawless nails.</span>{" "}
                 <span className="line">With meticulous attention to detail and a love for elegant designs,</span>{" "}
                 <span className="line">I&#39;m here to give you the perfect manicure that reflects your unique style.</span>
               </p>
               
-              <div className="flex items-center justify-center md:justify-start gap-4 mb-8">
+              <div className="flex items-center justify-center gap-4 mb-8">
                                  <div className="flex items-center gap-2 text-gray-700">
                    <svg className="w-5 h-5 text-pink-500" fill="currentColor" viewBox="0 0 20 20">
                      <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
@@ -130,29 +130,11 @@ export default function Home() {
                  </div>
               </div>
 
-              <div className="text-center md:text-left">
+              <div className="text-center">
                 <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors duration-300 shadow-lg pink-shadow">
                   BOOK NOW!
                 </button>
               </div>
-            </div></Reveal>
-
-                                                 {/* Right Side - Nail Art Image */}
-            <Reveal><div className="relative flex justify-center reveal-blur">
-                <div className="w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-2xl relative overflow-hidden shadow-xl">
-        <Image
-                    src="/SnapInsta.to_498239139_17889855213257578_4920639422939679441_n.jpg"
-                    alt="Coral Pink Nail Art"
-                    fill
-                    className="object-cover rounded-2xl"
-          priority
-        />
-                  <div className="absolute inset-0 bg-gradient-to-br from-pink-300/20 to-rose-400/20"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-center">
-                    <h3 className="text-lg font-bold text-white mb-2 drop-shadow-lg">Coral Pink Elegance</h3>
-                    <p className="text-white/90 text-xs drop-shadow-lg">Short square nails with glossy finish</p>
-                  </div>
-                </div>
             </div></Reveal>
           </div>
         </div>
