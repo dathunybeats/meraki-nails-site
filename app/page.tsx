@@ -70,29 +70,29 @@ export default function Home() {
 
              {/* Navigation Links - Desktop */}
              <div className="hidden md:flex items-center gap-8">
-               <a href="#about" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">About</a>
+               <a href="#hours" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">Hours</a>
                <a href="#services" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">Services</a>
-               <a href="#team" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">Team</a>
-               <a href="#faq" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">FAQ</a>
+               <a href="#policies" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">Policies</a>
+               <a href="#gallery" className="text-gray-700 hover:text-pink-500 font-bold transition-colors">Gallery</a>
              </div>
 
              {/* Book Now Button - Desktop */}
              <div className="hidden md:flex items-center gap-3">
-               <button className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center border border-pink-300 hover:bg-pink-200 transition-colors">
+               <a href="tel:+12365919999" className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center border border-pink-300 hover:bg-pink-200 transition-colors">
                  <svg className="w-5 h-5 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                  </svg>
-               </button>
-               <button className="bg-pink-100 hover:bg-pink-200 text-gray-800 font-medium px-6 py-2 rounded-full transition-colors">
+               </a>
+               <a href="https://www.instagram.com/n4iledbysq_/" target="_blank" rel="noopener noreferrer" className="bg-pink-100 hover:bg-pink-200 text-gray-800 font-medium px-6 py-2 rounded-full transition-colors">
                  Book Now
-               </button>
+               </a>
              </div>
 
              {/* Mobile Menu Button */}
              <div className="md:hidden flex items-center gap-2">
-               <button className="bg-pink-100 hover:bg-pink-200 text-gray-800 font-medium px-4 py-2 rounded-full transition-colors text-sm">
+               <a href="https://www.instagram.com/n4iledbysq_/" target="_blank" rel="noopener noreferrer" className="bg-pink-100 hover:bg-pink-200 text-gray-800 font-medium px-4 py-2 rounded-full transition-colors text-sm">
                  Book Now
-               </button>
+               </a>
                <button className="w-8 h-8 bg-pink-100 rounded-full flex items-center justify-center border border-pink-300 hover:bg-pink-200 transition-colors">
                  <svg className="w-4 h-4 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
                    <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
@@ -131,9 +131,9 @@ export default function Home() {
               </div>
 
               <div className="text-center">
-                <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors duration-300 shadow-lg pink-shadow">
+                <a href="https://www.instagram.com/n4iledbysq_/" target="_blank" rel="noopener noreferrer" className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-4 px-8 rounded-full text-lg transition-colors duration-300 shadow-lg pink-shadow inline-block">
                   BOOK NOW!
-                </button>
+                </a>
               </div>
             </div></Reveal>
           </div>
@@ -141,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Hours and Contact Section */}
-      <section className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
+      <section id="hours" className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-stretch">
             {/* Hours */}
@@ -213,7 +213,7 @@ export default function Home() {
       </section>
 
              {/* Services Section */}
-       <section className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
+       <section id="services" className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
          <div className="max-w-6xl mx-auto">
                       <h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-4"> Top Rated Nail Artist </h2>
            <h3 className="text-3xl md:text-4xl font-black text-center text-pink-600 mb-12 italic">Specializing In</h3>
@@ -244,7 +244,7 @@ export default function Home() {
        </section>
 
        {/* Booking Policies */}
-       <section className="py-5 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
+       <section id="policies" className="py-5 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
          <div className="max-w-6xl mx-auto">
            <h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-12">Booking Policies</h2>
           <div className="grid md:grid-cols-5 gap-6 items-stretch">
@@ -483,7 +483,7 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
+      <section id="gallery" className="py-16 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
         <div className="max-w-6xl mx-auto">
           <Reveal><h2 className="text-5xl md:text-6xl font-black text-center text-gray-800 mb-4 reveal-blur"><span className="line">TAG US ON YOUR</span></h2></Reveal>
           <Reveal><h3 className="text-4xl md:text-5xl font-black text-center text-pink-600 mb-12 italic font-script reveal-blur"><span className="line">Nail-fies</span></h3></Reveal>
@@ -573,9 +573,9 @@ export default function Home() {
       <section className="py-1 px-6" style={{backgroundColor: 'rgba(249,239,233,1)'}}>
         <div className="max-w-4xl mx-auto text-center">
           <Reveal><h2 className="text-5xl font-bold text-pink-600 mb-8 reveal-blur"><span className="line">Thank You</span></h2></Reveal>
-          <button className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-12 rounded-full text-xl transition-colors duration-300 shadow-lg pink-shadow hover:scale-105">
+          <a href="https://www.instagram.com/n4iledbysq_/" target="_blank" rel="noopener noreferrer" className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-12 rounded-full text-xl transition-colors duration-300 shadow-lg pink-shadow hover:scale-105 inline-block">
             BOOK NOW!
-          </button>
+          </a>
           <div className="mt-8 flex justify-center items-center gap-8 text-gray-600 flex-wrap">
                          <span className="flex items-center gap-2">
                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -607,11 +607,11 @@ export default function Home() {
            <div className="absolute inset-0 w-14 h-14 bg-pink-400 rounded-full animate-pulse-ring" style={{animationDelay: '1s'}}></div>
            
            {/* Main button */}
-           <button className="relative w-14 h-14 bg-pink-500 hover:bg-pink-600 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110">
+           <a href="tel:+12365919999" className="relative w-14 h-14 bg-pink-500 hover:bg-pink-600 text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110">
              <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
              </svg>
-           </button>
+           </a>
          </div>
        </div>
     </div>
